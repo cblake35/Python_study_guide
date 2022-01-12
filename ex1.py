@@ -1,4 +1,4 @@
-print('Hello World')
+print('Hello World') # print is like console.log in JS
 print('Hello Again')
 print('I like type this.')
 print('This is fun')
