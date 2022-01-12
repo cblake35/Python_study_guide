@@ -8,6 +8,7 @@ carpool_capacity = cars_driven * space_in_a_car
 average_passengers_per_car = passengers / cars_driven
 
 # Variable declaration in python do not use let, const, or var. They are simply defined by their name the variable is being called
+# words are also separated using underscores "_" instead of camel-casing
 
 print("There are", cars, "cars available.")
 print("There are only", drivers, "drivers available.")

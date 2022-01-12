@@ -13,7 +13,8 @@ print(f'I said: {x}')
 print(f'I also said: "{y}"')
 
 hilarious = False # it seems boleans have to have uppercase first letter
-joke_evaluation = "Isn't that joke so funny?! " # if using the formatter .format() method, needs "{}" to add the value in the .format(value) method
+joke_evaluation = "Isn't that joke so funny?! {}" # if using the formatter .format() method, needs "{}" to add the value in the .format(value) method.
+                                                  # the position of {} will determine where the value of .format will be placed
 
 print(joke_evaluation.format(hilarious))
 

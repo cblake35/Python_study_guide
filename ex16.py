@@ -13,7 +13,7 @@ target = open(filename, 'w') # w string specifies what mode you want to open the
                             # r specifies read 
                             # a for append
                             # x for creating
-                            # a and w modes will created the file if it does not exist. r and x will throw error if the file exist
+                            # a and w modes will created the file if it does not exist. r and x will throw error if the file does not exist
 
 print("Truncating the file.  Goodbye!")
 target.truncate() # truncates deletes or destroys the file

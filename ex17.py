@@ -9,7 +9,7 @@ in_file = open(from_file, 'r')
 # you can separate the read method like so -- indata = in_file.read()
 indata = in_file.read()
 
-print(f'The input file is {len(indata)} bytes long') # len get the length of the string and returns it as a number
+print(f'The input file is {len(indata)} bytes long') # len get the length of the string/data and returns it as a number
 
 print(f'Does the output file exist? {exists(to_file)}') # a command that checks if a file exists. This will return true if the file exists
 print('Ready, hit RETURN to continue, CTRL-C to abort.')
